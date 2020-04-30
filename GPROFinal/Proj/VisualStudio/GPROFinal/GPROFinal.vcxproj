@@ -155,9 +155,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\include\GPROFinal\Display.cpp" />
     <ClCompile Include="..\..\..\source\GPROFinal\GPROFinal.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\include\GPROFinal\Display.h" />
     <ClInclude Include="..\..\..\include\GPROFinal\GPROFinal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
