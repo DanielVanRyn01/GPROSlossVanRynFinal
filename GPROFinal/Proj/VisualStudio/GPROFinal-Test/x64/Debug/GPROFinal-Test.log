@@ -1,3 +1,4 @@
 ﻿  main.cpp
-C:\Users\TYLER\source\repos\GPROSlossVanRynFinal\GPROFinal\source\GPROFinal-Test\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  GPROFinal-Test.vcxproj -> C:\Users\TYLER\source\repos\GPROSlossVanRynFinal\GPROFinal\Proj\VisualStudio\GPROFinal-Test\..\..\..\bin\GPROFinal-Test.exe
+C:\Users\danie\source\repos\GPROSlossVanRynFinal\GPROFinal\source\GPROFinal-Test\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  LINK : ..\..\..\bin\GPROFinal-Test.exe not found or not built by the last incremental link; performing full link
+  GPROFinal-Test.vcxproj -> C:\Users\danie\source\repos\GPROSlossVanRynFinal\GPROFinal\Proj\VisualStudio\GPROFinal-Test\..\..\..\bin\GPROFinal-Test.exe

@@ -157,10 +157,12 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\include\GPROFinal\Display.cpp" />
     <ClCompile Include="..\..\..\source\GPROFinal\GPROFinal.cpp" />
+    <ClCompile Include="..\..\..\source\GPROFinal\Input.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\GPROFinal\Display.h" />
     <ClInclude Include="..\..\..\include\GPROFinal\GPROFinal.h" />
+    <ClInclude Include="..\..\..\include\GPROFinal\Input.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
