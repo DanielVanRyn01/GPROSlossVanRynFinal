@@ -1,4 +1,4 @@
-C:\Users\TYLER\source\repos\GPROSlossVanRynFinal\GPROFinal\lib\GPROFinal.pdb
-C:\Users\TYLER\source\repos\GPROSlossVanRynFinal\GPROFinal\Proj\VisualStudio\GPROFinal\x64\Debug\GPROFinal.pdb
 C:\Users\danie\source\repos\GPROSlossVanRynFinal\GPROFinal\lib\GPROFinal.pdb
 C:\Users\danie\source\repos\GPROSlossVanRynFinal\GPROFinal\Proj\VisualStudio\GPROFinal\x64\Debug\GPROFinal.pdb
+C:\Users\TYLER\source\repos\GPROSlossVanRynFinal\GPROFinal\lib\GPROFinal.pdb
+C:\Users\TYLER\source\repos\GPROSlossVanRynFinal\GPROFinal\Proj\VisualStudio\GPROFinal\x64\Debug\GPROFinal.pdb

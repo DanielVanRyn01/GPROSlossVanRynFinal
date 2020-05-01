@@ -1,4 +1,6 @@
 #pragma once
+#include "Display.h"
+#include "Input.h"
 #include <iostream>
 #include <fstream>
 #include <time.h>
@@ -15,6 +17,7 @@ public:
 	void boardSpaceSet(char player, int xpos, int ypos);
 	bool playerMoveValid(char player,int xpos, int ypos);
 	void playerMove(char player, int xpos, int ypos);
+	char playerJump(char player, int xpos, int ypos);
 private:
 	char Board[BOARD_HEIGHT][BOARD_WIDTH] = {'O'};
 	char (*pBoard)[BOARD_HEIGHT][BOARD_WIDTH] = &Board;

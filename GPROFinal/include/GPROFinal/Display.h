@@ -33,6 +33,27 @@ public:
 		}
 
 	};
+	Display(char values, int rows, int rowSize)
+	{
+		this->rows = rows;
+		this->rowSize = rowSize;
+		for (int i = 0; i < defaultBoardSize; i++)
+		{
+			for (int c = 0; c < defaultBoardSize; c++)
+			{
+				board[i][c] = 0;
+			}
+		}
+		for (int i = 0; i < rows; i++)
+		{
+			for (int c = 0; c < rowSize; c++)
+			{
+				int temp = i * rowSize + c;
+				board[i][c] = values;
+			}
+		}
+
+	};
 	Display(int rows, int rowSize)
 	{
 		this->rows = rows;
@@ -57,6 +78,18 @@ public:
 			}
 		}
 	};
+	Display(char in)
+	{
+		rows = defaultBoardSize;
+		rowSize = defaultBoardSize;
+		for (int i = 0; i < defaultBoardSize; i++)
+		{
+			for (int c = 0; c < defaultBoardSize; c++)
+			{
+				board[i][c] = in;
+			}
+		}
+	};
 	Display(Display& copy)
 	{
 		this->rows = copy.getRows();
@@ -78,4 +111,5 @@ private:
 	char board[defaultBoardSize][defaultBoardSize];
 	int rowSize;
 	int rows;
+
 };

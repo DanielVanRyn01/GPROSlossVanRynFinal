@@ -52,5 +52,11 @@ bool board::playerMoveValid(char player, int xpos, int ypos)
 
 void board::playerMove(char player, int xpos, int ypos)
 {
+	boardSpaceSet(player, xpos, ypos);
 
+}
+
+char board::playerJump(char player, int xpos, int ypos)
+{
+	return 0;
 }
